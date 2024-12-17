@@ -23,7 +23,7 @@ I will be comparing **ARMv2** and **MIPS R2000** architectures.
 - [Aplication](#application)
 - [Software](#software)
 - [Emulators](#emulators)
-- [Sources](#source)
+- [Sources](#sources)
 
 
 
