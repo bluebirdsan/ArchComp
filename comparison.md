@@ -1,4 +1,4 @@
-# Computer architecture (microprocessor) comparison
+# Computer architecture comparison
 
 I will be comparing **ARMv2** and **MIPS R2000** architectures.
 
@@ -20,7 +20,7 @@ I will be comparing **ARMv2** and **MIPS R2000** architectures.
 - [Data types](#data-types)
 - [Speed](#speed)
 - [Cache](#cache)
-- [Aplication](#application)
+- [Application](#application)
 - [Software](#software)
 - [Emulators](#emulators)
 - [Sources](#sources)
@@ -31,11 +31,11 @@ I will be comparing **ARMv2** and **MIPS R2000** architectures.
 
 ### ARMv2
 
-ARM originally stood for Acorn RISC Machine, but later renamed to Advanced RISC Machines. Arm Holdings develops instruction set architectures (ISAs) and licenses them to others. The first version was tested on 26 April 1985. The latest version that is used in products is ARMv9.2-A.
+ARM originally stood for Acorn RISC Machine, but later was renamed to Advanced RISC Machines. Arm Holdings develops instruction set architectures (ISAs) and licenses them to others. The first version was tested on 26 April 1985. The latest version that is used in products today is ARMv9.2-A.
 
 ### MIPS R2000
 
-This architecture (microprocessor) was developed by MIPS Computer Systems in 1986. It was the first commercial implementation of the RISC architecture. R2000 users included Ardent Computer, DEC, Silicon Graphics, Northern Telecom and MIPS's own Unix workstations.
+This architecture was developed by MIPS Computer Systems in 1986. It was the first commercial implementation of the RISC architecture. R2000 users included Ardent Computer, DEC, Silicon Graphics, Northern Telecom and MIPS's own Unix workstations.
 
 
 
@@ -43,7 +43,7 @@ This architecture (microprocessor) was developed by MIPS Computer Systems in 198
 
 ### ARMv2
 
-It's elementary base were integrated circuits with low scale integration. It had 30,000 transistors and it's power consumption was just a few watts.
+It's elementary base was integrated circuits with low scale integration. It had 30,000 transistors and it's power consumption was just a few watts.
 
 ### MIPS R2000
 
@@ -79,11 +79,11 @@ It used one, two and three address instruction formats.
 
 ### ARMv2
 
-It has thiry-one (31) general-purpose 32-bit registers. At any time, 16 registers are visible, others are used to speed up exception processing. Two of visible registers have special functions: link register, holds the address of the next instruction; program counter, it is used as a pointer to the instruction which is two instructions after the instruction being executed.
+It had thirty-one general-purpose 32-bit registers. At any time, 16 registers are visible, others are used to speed up exception processing. Two of visible registers have special functions: link register, holds the address of the next instruction; program counter, it is used as a pointer to the instruction which is two instructions after the instruction being executed.
 
 ### MIPS R2000
 
-It had thirty-two (32) 32-bit general-purpose registers and three (3) 32-bit special registers: *pc* (program counter) that always contains the address of the next instruction to be executed; *hi* and *lo* hold the result of multiplication or division.
+It had thirty-two 32-bit general-purpose registers and three (3) 32-bit special registers: *pc* (program counter) that always contains the address of the next instruction to be executed; *hi* and *lo* hold the result of multiplication or division.
 
 
 
@@ -91,7 +91,7 @@ It had thirty-two (32) 32-bit general-purpose registers and three (3) 32-bit spe
 
 ### ARMv2
 
-It used condition code flags, whic were: negative (N), zero (Z), carry (C) and overflow (V).
+It used condition code flags, which were: negative (N), zero (Z), carry (C) and overflow (V).
 
 ### MIPS R2000
 
@@ -139,11 +139,11 @@ Virtual memory was supported.
 
 ### ARMv2
 
-It used the ARM instructon set. It had 3 branch, 16 data-processing, 6 multiplication, 1 miscellaneous arithmetic, 2 status register access, 17 load/store, 2 semaphore, 2 exception-generating, 5 coprocessor instructions. A total of 54 instructions.
+It used the ARM instructon set architecture. It had 3 branch, 16 data-processing, 6 multiplication, 1 miscellaneous arithmetic, 2 status register access, 17 load/store, 2 semaphore, 2 exception-generating, 5 coprocessor instructions. A total of 54 instructions.
 
 ### MIPS R2000
 
-It used the MIPS I instruction set architecture (ISA). It had 18 arithmetic, 6 shift, 8 muliplication/division, 12 load/store, 12 jump and branch and 16 other instructions, a total of 72 isntructions. The ISA had three types: R - register, I - immediate, and J - jump.
+It used the MIPS I instruction set architecture. It had 18 arithmetic, 6 shift, 8 muliplication/division, 12 load/store, 12 jump and branch and 16 other instructions, a total of 72 isntructions. The ISA had three types: R - register, I - immediate, and J - jump.
 
 
 
@@ -199,11 +199,11 @@ It had three data types: a byte, halfword (2 bytes) and word (4 bytes).
 
 ### ARMv2
 
-The ARM2, which used the ARMv2 architecture, was designed to run at 8 MHz. A year later the speed was increased to 10-12 MHz.
+The ARM2, which used the ARMv2 architecture, was designed to run at 8 MHz. A year later the speed was increased to 10-12 MHz. It was able to compute one instruction per cycle.
 
 ### MIPS R2000
 
-It was available in 8.3, 12.5, and 15 MHz grades. Later an improved version was released, the R2000A. It had two grades of 12.5 and 16.67 MHz. It had a coefficient of instructions per cycle of 1.
+It was available in 8.3, 12.5, and 15 MHz grades. Later an improved version was released, the R2000A. It had two grades of 12.5 and 16.67 MHz. It could process one instruction per cycle.
 
 
 
@@ -258,8 +258,6 @@ I found little information on the software that was written for this architectur
 ## Afterword
 
 Searching information for the MIPS R2000 wasn't as easy as for the ARMv2 and some data I couldn't even find. It might be because it is not as popular as ARM, which results in less available public information. ARMv2 in contrast, has a **LOT** of information, which is good, but has it's own challenge. Different sites sometimes have conflicting information, and because there is a lot of information out there, it is more difficult to find what data is correct.
-
-I am not sure if this comparison is valid from the start, because ARMv2 is the core architecure that was used by the ARM2, ARM250 and ARM3 processors, while MIPS R2000 is a processor that uses the MIPS I instrution set architecture. I am comparing a core architecture with a processor, which is nonsense.
 
 
 
