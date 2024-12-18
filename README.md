@@ -1,3 +1,3 @@
 # Architecture comparison
 
-The comparison is in [comparison.md](comparison.md)
+The comparison is in [comparison.pdf](comparison.pdf)
