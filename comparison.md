@@ -43,11 +43,11 @@ This architecture (microprocessor) was developed by MIPS Computer Systems in 198
 
 ### ARMv2
 
-It's base were integrated circuits with low scale integration. It had 30,000 transistors and it's power consumption was just a few watts.
+It's elementary base were integrated circuits with low scale integration. It had 30,000 transistors and it's power consumption was just a few watts.
 
 ### MIPS R2000
 
-It used integrated circuits as it's elementary base and they had large scale integration. It had 110,000 transistors and the size was 80mm<sup>2</sup>. I couldn't find information about it's power consumption, but a similar chip from MIPS used 10W.
+It used integrated circuits as it's elementary base and they had large scale integration. It had 110,000 transistors and the size of the main die was 80mm<sup>2</sup>. I couldn't find information about it's power consumption, but a similar chip from MIPS used 10W.
 
 
 
@@ -258,6 +258,8 @@ I found little information on the software that was written for this architectur
 ## Afterword
 
 Searching information for the MIPS R2000 wasn't as easy as for the ARMv2 and some data I couldn't even find. It might be because it is not as popular as ARM, which results in less available public information. ARMv2 in contrast, has a **LOT** of information, which is good, but has it's own challenge. Different sites sometimes have conflicting information, and because there is a lot of information out there, it is more difficult to find what data is correct.
+
+I am not sure if this comparison is valid from the start, because ARMv2 is the core architecure that was used by the ARM2, ARM250 and ARM3 processors, while MIPS R2000 is a processor that uses the MIPS I instrution set architecture. I am comparing a core architecture with a processor, which is nonsense.
 
 
 
